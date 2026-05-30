@@ -1,1 +1,13 @@
 data/
+results/model_outputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.png
+*.jpeg
+.env
+.venv/
+__pycache__/
+plan.md

@@ -1,0 +1,7 @@
+TeCNO - Surgical phase recognition
+
+EndoNet-style models - Tool + phase recognition
+
+CNN + LSTM / CNN + TCN - Frame features + temporal model
+
+TimeSformer / VideoMAE / SlowFast - General video action recognition
