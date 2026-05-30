@@ -1,0 +1,28 @@
+Models that answer "What is happening in this frame?":
+	MedGemma
+	LLaVA
+	BLIP-2
+
+Models that answer "Which step of surgery is this?":
+	EndoNet
+	TeCNO
+
+Models that answer "What action is being performed over time?"
+	SlowFast
+	Inflated 3D ConvNet
+	TimeSformer
+
+There are some models that are good specifically for tool detection:
+	YOLOv8
+	CenterNet++
+
+The workflow here might be:
+Video
+ ↓
+Frame Sampling
+ ↓
+Tool Detection → YOLOv8
+Scene Description → BLIP-2
+Scene Understanding → SlowFast / TimeSformer
+ ↓
+Surgical Phase Prediction (EndoNet / TeCNO)
