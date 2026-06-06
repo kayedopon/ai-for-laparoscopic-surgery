@@ -1,7 +1,9 @@
-Qwen2.5-VL-3B / 7B Strong open-weight VLM with image and video support
+Qwen2.5-VL-3B / 7B — open-weight VLM; supports image and video/frame-sequence understanding.
 
-MedGemma 1.5 4B Medical-oriented VLM
+MedGemma 1.5 4B — medical-oriented image-text VLM; useful for medical image interpretation, but not primarily a surgical video model.
 
-LLaVA / LLaVA-Med style models Classic image-text baseline
+LLaVA / LLaVA-Med — classic single-image VLM baselines for frame-level surgical description.
 
-BLIP-2 / InstructBLIP Image captioning/VQA baseline
+Video-LLaVA / LLaVA-NeXT-Interleave — LLaVA-style models with image + video / multi-frame support.
+
+BLIP-2 / InstructBLIP — image captioning and VQA baselines; mainly for single-frame analysis.

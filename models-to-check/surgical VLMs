@@ -1,5 +1,5 @@
-PeskaVLP repo
+PeskaVLP — procedure-aware surgical video-language pretraining framework; relevant for surgical video-language representation learning.
 
-SurgVLM model
+SurgVLM — surgical-domain VLM / benchmark system; useful for surgical frame understanding and surgical VQA, but check whether the released model supports raw video clips.
 
-SurgBenchKit repo
+SurgBenchKit — surgical VLM evaluation toolkit/benchmark, not a standalone model.

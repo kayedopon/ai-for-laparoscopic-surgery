@@ -36,7 +36,7 @@ def has_text_overlay(frame, y1=20, y2=95, x1=35, x2=970, threshold=0.03):
 
     return bright_ratio > threshold
 
-def blur_text_region_if_needed(frame, y1=20, y2=95, x1=35, x2=970, height=720, width=1280):
+def blur_text_region(frame, y1=20, y2=95, x1=35, x2=970, height=720, width=1280):
     clean = frame.copy()
     bottom_y1 = height-y2 - 25
     bottom_y2 = height-y1 - 25

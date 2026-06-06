@@ -1,0 +1,16 @@
+Model,Category,Supports frame sequences,Best use
+Qwen2.5-VL-3B / Qwen2.5-VL-7B,General VLM,Yes,Image and video/frame-sequence VQA; useful for testing both separate frames and short clips.
+MedGemma 1.5 4B,Medical VLM,Partly / not standard video,Medical image interpretation; better treated as frame-level unless its multi-image input is specifically tested.
+LLaVA,General VLM,Usually no,Single-frame image understanding and visual question answering.
+LLaVA-Med,Medical VLM,Usually no,Medical single-image/frame-level visual question answering.
+Video-LLaVA,Video VLM,Yes,Video or multi-frame visual question answering.
+LLaVA-NeXT-Video / LLaVA-NeXT-Interleave,Video / multi-image VLM,Yes,"Multi-frame, interleaved image-text, and video-style understanding."
+BLIP-2,General VLM,Mostly no,Single-frame captioning and visual question answering.
+InstructBLIP,General VLM,Mostly no,Instruction-following single-frame captioning and VQA.
+PeskaVLP,Surgical video-language model,Yes,Surgical video-language representation learning; less like a simple chat VLM.
+SurgVLM,Surgical VLM,Mainly frame-level / check implementation,Surgical-domain frame understanding and surgical VQA.
+TeCNO,Surgical phase recognition,Yes,Temporal surgical phase recognition from frame features or predictions.
+EndoNet,Surgical tool and phase recognition,Original mostly frame-level; temporal extensions possible,Tool presence and phase recognition from laparoscopic frames.
+TimeSformer,Video action recognition,Yes,Action recognition from video clips using spatiotemporal attention.
+VideoMAE,Video representation / action recognition,Yes,Video clip representation learning and action recognition.
+SlowFast,Video action recognition,Yes,Motion/action recognition from video clips with fast and slow pathways.

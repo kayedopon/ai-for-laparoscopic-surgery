@@ -1,7 +1,7 @@
-TeCNO - Surgical phase recognition
+TeCNO — temporal convolutional model for surgical phase recognition; uses frame sequences/features.
 
-EndoNet-style models - Tool + phase recognition
+EndoNet-style models — CNN-based tool and phase recognition from laparoscopic video frames; can be extended with temporal smoothing or LSTM/TCN.
 
-CNN + LSTM / CNN + TCN - Frame features + temporal model
+CNN + LSTM / CNN + TCN — standard temporal pipeline: frame feature extraction followed by sequence modeling.
 
-TimeSformer / VideoMAE / SlowFast - General video action recognition
+TimeSformer / VideoMAE / SlowFast — general video action-recognition models that directly use frame sequences/video clips.
