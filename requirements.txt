@@ -1,3 +1,7 @@
 opencv-python
 matplotlib
 pandas
+transformers
+requests
+accelerate
+qwen-vl-utils
